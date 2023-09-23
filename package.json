@@ -5,7 +5,7 @@
   "scripts": {
     "test": "lerna run test",
     "build": "lerna run build",
-    "bump": "lerna version --no-private"
+    "bump": "lerna version --no-private --message 'chore: bump versions'"
   },
   "private": true,
   "devDependencies": {
