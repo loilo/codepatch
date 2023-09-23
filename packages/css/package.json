@@ -20,6 +20,7 @@
     "type": "git",
     "url": "https://github.com/loilo/codepatch.git"
   },
+  "homepage": "https://github.com/loilo/codepatch/tree/main/packages/css#readme",
   "license": "MIT",
   "author": {
     "name": "Florian Reuschel",
