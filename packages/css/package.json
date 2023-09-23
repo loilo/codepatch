@@ -1,6 +1,6 @@
 {
   "name": "@codepatch/css",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Transform CSS code the easy way",
   "keywords": [
@@ -52,7 +52,7 @@
     "vitest": "^0.33.0"
   },
   "dependencies": {
-    "@codepatch/core": "^0.0.0"
+    "@codepatch/core": "^1.0.0"
   },
   "peerDependencies": {
     "@types/css-tree": "^2.3.2",
