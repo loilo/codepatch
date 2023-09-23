@@ -1,0 +1,8 @@
+{
+  "version": "independent",
+  "command": {
+    "run": {
+      "npmClient": "npm"
+    }
+  }
+}

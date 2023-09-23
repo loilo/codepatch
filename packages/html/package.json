@@ -1,0 +1,61 @@
+{
+  "name": "@codepatch/html",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Transform HTML code the easy way",
+  "keywords": [
+    "html",
+    "falafel",
+    "yufka",
+    "ast",
+    "transform",
+    "rewrite",
+    "transpile",
+    "source",
+    "syntax",
+    "traverse",
+    "tree"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loilo/codepatch.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Florian Reuschel",
+    "email": "florian@loilo.de",
+    "url": "https://loilo.de"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/main.js",
+  "module": "./dist/main.js",
+  "exports": {
+    "import": "./dist/main.js"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "test:lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "test:unit": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test": "run-s test:lint test:unit",
+    "dev:vitest": "vitest",
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "run-s build"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.33.0",
+    "eslint": "^8.45.0",
+    "npm-run-all": "^4.1.5",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "@codepatch/core": "^0.0.0"
+  },
+  "peerDependencies": {
+    "domhandler": "^5.0.3",
+    "htmlparser2": "^9.0.0"
+  }
+}
