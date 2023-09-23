@@ -5,7 +5,8 @@
   "scripts": {
     "test": "lerna run test",
     "build": "lerna run build",
-    "bump": "lerna version --no-private --message 'chore: bump versions'"
+    "bump": "lerna version --no-private --message 'chore: bump versions'",
+    "publish": "lerna publish from-package"
   },
   "private": true,
   "devDependencies": {
